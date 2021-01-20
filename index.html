@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" media="screen and (max-device-width: 1000px)"  href="./css/mobile.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
             <li><a href="">Início</a></li>
             <li><a href="">Serviços</a></li>
             <li><a href="">Contato</a></li>
-            <a href="" class = "button" ><li>Login</li></a>
+            <a href=""  class = "button none" ><li>Login</li></a>
         </ul>
     </nav>
-
+ 
     <section id="homepage">
         <img src="./assets/video_call.png" alt="">
         <div id="texto-principal">
@@ -42,6 +43,7 @@
 
        
     </section>
+   
     <div id="area-ligacao">
         <label for="">Nossa equipe está à disposição!</label>
         <input type="text" placeholder="Celular">
@@ -51,20 +53,24 @@
     <section id="page-three">
         <div class="depoimentos">
             <img src="" alt="">
-            <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
-            <p class="nomes">Pedro Ferreira </p>
-            <p class="profissao">Construtora Minari</p>
+            <div class="texto">
+                <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
+                <p class="nomes">Pedro Ferreira </p>
+                <p class="profissao">Construtora Minari</p>
+            </div>
         </div>
         <div class="depoimentos">
             <img src="" alt="">
-            <p>Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
-            <p class="nomes">Maria Rita</p>
-            <p class="profissao">Escola Criança Feliz</p>
+            <div class="texto">
+                <p>Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
+                <p class="nomes">Maria Rita</p>
+                <p class="profissao">Escola Criança Feliz</p>
+            </div>
         </div>
     </section>
-
+ 
     <footer>
-        <div>
+        <div class="logo-footer">
             <h4 class="logo">Codar.</h3>
             <p>Criamos websites incríveis</p>
         </div>
@@ -87,7 +93,7 @@
                 <a href=""><i class="fab fa-twitter-square"></i></a>
             </ul>
         </div>
-    </footer> 
+    </footer>
 </body>
 </html>
 

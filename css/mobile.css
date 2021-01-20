@@ -1,0 +1,150 @@
+@media screen and (max-width: 1000px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        height: auto;
+        list-style: none;
+        text-decoration-style: none;
+        text-decoration: none;
+    }
+    
+    
+    #navbar {
+        width: 100%;
+        height: 25vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0vh 4vw;
+        font-size: 1.1em;
+    }
+    .none {display: none;}
+
+    .logo{
+        font-size: 3em;
+        font-style: italic;
+        margin-bottom: 3vh;
+    }
+    #navbar ul {
+        display: flex;
+        justify-content: right;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    #navbar ul li a {
+        margin: 0 5vh;
+        text-decoration-style: none;
+        text-decoration: none;
+        font-size: 1.1em;
+    }
+    #homepage {
+        width: 98%;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    #homepage img{
+        max-width: 80%;
+        height: 60%;
+        margin:  5vh 0;
+    }
+
+    #texto-principal{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        width: 100%;
+        height: 40%;
+    }
+    #texto-principal h2{
+        font-size: 2.5em;
+        margin-bottom: 5vh;
+    }
+    .solicitacao{
+        padding: 2vh 6vw ;
+    }
+    #page-two{
+        justify-content: center;
+        flex-direction: column-reverse;
+        
+    }
+    #page-two img{
+        max-width: 90%;
+        height: 60%;
+        margin: 0%;
+        margin-bottom: 5vh;
+    }
+    #page-two i{
+        margin-right: 4vw;
+    }
+
+    #area-ligacao{
+        width: 90%;
+        margin: 50vh 5vw;
+        margin-bottom: 10vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #area-ligacao input{
+        width: 80%;
+        margin-bottom:3vh;
+    }
+    #area-ligacao a{
+        width: 80%;
+        text-align: center;
+        font-weight: 500;    
+    }
+    
+    #page-three{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }   
+    .depoimentos{
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+    .texto{
+        display: flex;
+        
+        flex-direction: column;
+        margin: 1vh 2vw;
+        text-align: left;
+    }
+
+    footer{
+        flex-direction: column;
+        
+        padding: 5vw 8vw;
+    }
+    .logo-footer{
+        text-align: center;
+    }
+    .logo-footer h4{
+        margin-bottom: 0.5vh;
+    }
+    footer h4{
+        margin-top: 4vh;
+    }
+    footer ul{
+        justify-content: left;
+    }
+    footer i{
+        font-size: 2.5em;
+        margin-right: 10vw;
+    }
+}
